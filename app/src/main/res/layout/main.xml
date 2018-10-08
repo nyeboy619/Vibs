@@ -3,14 +3,20 @@
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-	android:gravity="center">
+	android:gravity="center"
+	android:background="#FFBB00"
+	android:onClick="tL">
 
 	<TextView
-		android:text="@string/hello_world"
+		android:text="Vibrate me not!"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:textSize="57sp"
-		android:id="@+id/t"/>
+		android:textSize="100sp"
+		android:id="@+id/t"
+		android:typeface="normal"
+		android:textColor="#141414"
+		android:textAlignment="center"
+		android:layout_gravity="center_vertical"/>
 
 </LinearLayout>
 
